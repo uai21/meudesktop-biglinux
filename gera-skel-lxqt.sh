@@ -37,7 +37,7 @@ fi
 now=$(date +%s)
 
 # Define o limite de tempo para 12 horas atrás
-limit=$(( $now - 12*3600 ))
+limit=$(( $now - 1*3600 ))
 
 # Encontra todos os arquivos e diretórios modificados nas últimas 12 horas
 # dentro de ~/.config e armazena a lista em um arquivo temporário
